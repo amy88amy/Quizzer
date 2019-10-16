@@ -1,0 +1,29 @@
+{% extends 'quiz.html' %}
+
+{% block title %}
+Quiz
+{% endblock %}
+
+{% block content %}
+{{ ques_obj.0.statement }}
+{% endblock %}
+
+{% block option1 %}
+{{ ques_obj.0.op1 }}
+{% endblock %}
+
+{% block option2 %}
+{{ ques_obj.0.op2 }}
+{% endblock %}
+
+{% block option3 %}
+{{ ques_obj.0.op3 }}
+{% endblock %}
+
+{% block option4 %}
+{{ ques_obj.0.op4 }}
+{% endblock %}
+
+{% block usrid %}
+{{ user_obj }}
+{% endblock %}

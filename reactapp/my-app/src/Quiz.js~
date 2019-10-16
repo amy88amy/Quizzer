@@ -1,0 +1,46 @@
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Img from 'react-image';
+
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
+
+class Quiz extends Component {
+   render() {
+      return (
+         <div>
+		<div id="HIGH">
+			 			<p>HIGH</p>
+					</div>
+
+					<div id="MIDDLE">
+					 	<p>MIDDLE</p>
+					</div>
+
+					<div id="ELEMENTARY">
+					<p>ELEMENTARY</p> 
+		 			</div>
+
+					<div id= "Rectangle-4">
+							 <a href = "quiz.html">
+						 		<img class="Vector-Smart-Object" src="img/vector-smart-object1.png"
+						     	srcset="img/vector-smart-object@22x.png 2x,img/vector-smart-object@33x.png 3x" style= "width:7.633587786259542vw; height:16.891472868217054vh; margin:2.810077519379845vh 4.857737682165163vw 2.6162790697674416vh 5.0641915336571826vw" > </a>
+					</div>
+		 
+		 			<div id="Rectangle-4-copy">
+						 		<a href = "quiz.html">
+			 					<img class="Vector-Smart-Object" src="img/vector-smart-object(1).png"
+			     				srcset="img/vector-smart-object@2x(1).png 2x,
+				     			img/vector-smart-object@3x(1).png 3x" style="width:10.40943789035392vw; height:11.821705426356589vh;margin:5.813953488372093vh 3.1922276197085355vw 3.682170542635659vh 4.786606523247745vw"></a>
+					</div>
+					<div id="Rectangle-4-copy-2">
+					 		<a href = "quiz.html">
+							<img class="Vector-Smart-Object" src="img/vector-smart-object(2).png"
+			     				srcset="img/vector-smart-object@2x(2).png 2x,img/vector-smart-object@3x(2).png 3x" 	style="width:8.466342817487856vw; height:13.75968992248062vh;margin:4.263565891472868vh 4.302567661346287vw 3.294573643410853vh 4.425399028452463vw"></a>
+					</div>
+
+         </div>
+      );
+   }
+}
+export default Quiz;

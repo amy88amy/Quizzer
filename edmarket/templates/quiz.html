@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title> {% block title %}{% endblock %} </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/home/suyash/Desktop/EdmodoR/edmarket/static/css/quiz.css">
+
+	<script type="text/javascript">
+		var currentLink = null;
+		function changeLinkColor(link) {
+			if(currentLink!=null) {
+				currentLink.style.border = link.style.border;
+			}
+			link.style.border = '1px solid blue';
+			currentLink = link;
+		}
+	</script>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="Rectangle-1-copy">
+				
+				<!-- EDOMODO LOGO -->
+				<div style="position: absolute;">	
+					<!-- jpg -->
+					<img src="/home/suyash/Desktop/EdmodoR/edmarket/static/img/edmodo-logo-copy.jpg" srcset="/home/suyash/Desktop/EdmodoR/edmarket/static/img/edmodo-logo-copy@2x.jpg 2x, /home/suyash/Desktop/EdmodoR/edmarket/static/img/edmodo-logo-copy@3x.jpg 3x" class="edmodo_logo-copy"> 
+					
+					<!-- png
+					<img src="/home/suyash/Desktop/EdmodoR/edmarket/static/img/edmodo-logo-copy.png" srcset="/home/suyash/Desktop/EdmodoR/edmarket/static/img/edmodo-logo-copy@2x.png 2x, /home/suyash/Desktop/EdmodoR/edmarket/static/img/edmodo-logo-copy@3x.png 3x" class="edmodo_logo-copy">
+					-->
+				</div>
+
+				<!-- Grey Line -->
+				<div class="GreyLine">
+					<p class="Shape-17"></p>
+				</div>
+
+				<!-- Right Arrow Icon -->
+				<div class="Right-arrow-icon">
+					<div>
+						<!-- png -->
+						<img src="/home/suyash/Desktop/EdmodoR/edmarket/static/img/shape-24.jpg" class="Shape-24">
+						<!-- svg -->
+						<!-- <img src="/home/suyash/Desktop/EdmodoR/edmarket/static/img/shape-24.svg" class="Shape-24"> -->
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Violet Box -->
+		<div>
+			<div class="Rectangle-4-copy-2" id="Rectangle_4_copy_2">
+				
+				<!-- Book Logo -->
+				<div class="Book-Logo">
+					<img src="/home/suyash/Desktop/EdmodoR/edmarket/static/img/vector-smart-object.jpg" srcset="/home/suyash/Desktop/EdmodoR/edmarket/static/img/vector-smart-object@2x.jpg 2x, /home/suyash/Desktop/EdmodoR/edmarket/static/img/vector-smart-object@3x.jpg 3x" class="Vector-Smart-Object">
+				</div>
+				
+				<!--Close Button-->
+				<div class="Close-Button">
+					<a class="Shape-22">X</a>
+				</div>
+
+				<!-- Heading -->
+				<div class="Heading">
+					<p class="ELEMENTARY-English---5th-Grade">ELEMENTARY English (5th Grade)</p>
+				</div>
+
+				<!-- Sub Heading -->
+				<div class="Sub-Heading">
+					<p class="This-course-helps-you-improve-the-printing-and-typesetting-indu">This course helps you improve the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+
+				<!-- View Discussion -->
+				<div class="ViewDicussion">
+					<u class="VIEW-DISCUSSION"><a style="text-decoration: none; color: #333333;">VIEW DISCUSSION</a></u>
+				</div>
+
+				<!-- View Answer History -->
+				<div class="View-ans-History">
+					<u class="VIEW-ANSWER-HISTORY"><a style="text-decoration: none; color: #333333;">VIEW ANSWER HISTORY</a></u>
+				</div>
+
+				<form action="" method="POST">
+				{% csrf_token %}
+					<!-- Question -->
+					<div class="Question">
+						<p class="Which-sentence-shows-correct-punctuation">
+						<!-- Which sentence shows correct punctuation? -->
+						{% block content %}
+						{% endblock %}
+						</p>
+					</div>
+
+					<!-- Options -->
+					<div>
+						<div>
+							<!-- Option 1 -->
+							<div class="Rounded-Rectangle-4" id="Outer-Box-Option-1">
+								<div>
+									<div class="Rounded-Rectangle-4-copy" id="Inner-Box-Option" onclick="changeLinkColor(this)">
+										<a class="glyphicon glyphicon-ok" id="Common-Hyperlink"></a>
+									</div>
+									<p style="position: absolute; margin-left: 3vw; margin-top: 1vh;">
+										{% block option1 %}
+										{% endblock %}
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<!-- Option 2 -->
+							<div class="Rounded-Rectangle-4" id="Outer-Box-Option-2">
+								<div>
+									<div class="Rounded-Rectangle-4-copy" id="Inner-Box-Option" onclick="changeLinkColor(this)">
+										<a class="glyphicon glyphicon-ok" id="Common-Hyperlink"></a>
+									</div>
+									<p style="position: absolute; margin-left: 3vw; margin-top: 1vh;">
+										{% block option2 %}
+										{% endblock %}
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<!-- Option 3 -->
+							<div class="Rounded-Rectangle-4" id="Outer-Box-Option-3">
+								<div>	
+									<div class="Rounded-Rectangle-4-copy" id="Inner-Box-Option" onclick="changeLinkColor(this)">
+										<a class="glyphicon glyphicon-ok" id="Common-Hyperlink"></a>
+									</div>
+									<p style="position: absolute; margin-left: 3vw; margin-top: 1vh;">
+										{% block option3 %}
+										{% endblock %}
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<!-- Option 4 -->
+							<div class="Rounded-Rectangle-4" id="Outer-Box-Option-4">
+								<div>
+									<div class="Rounded-Rectangle-4-copy" id="Inner-Box-Option" onclick="changeLinkColor(this)">
+										<a class="glyphicon glyphicon-ok" id="Common-Hyperlink" ></a>
+									</div>
+									<p style="position: absolute; margin-left: 3vw; margin-top: 1vh;">
+										{% block option4 %}
+										{% endblock %}
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Skip Button -->
+					<div style="position: absolute;" class="Rounded-Rectangle-1-copy-2">
+						<p class="SKIP">SKIP</p>
+					</div>
+					<!-- Submit Button -->
+					<div style="position: absolute; text-align: center;" class="Rounded-Rectangle-1-copy">
+						
+							<button type="submit" style="text-decoration: none; background-color: transparent; border: none;" class="SUBMIT">
+								<p>SUBMIT</p>
+							</button>
+						
+					</div>
+				</form>
+
+				<!-- Badge Logo -->
+				<div class="Badge-logo">
+					<img src="/home/suyash/Desktop/EdmodoR/edmarket/static/img/vector-smart-object.jpg" srcset="/home/suyash/Desktop/EdmodoR/edmarket/static/img/vector-smart-object@2x.jpg 2x, /home/suyash/Desktop/EdmodoR/edmarket/static/img/vector-smart-object@3x.jpg 3x" class="Vector-Smart-Object" style="height: 20vh; width: 20vw;">
+				</div>
+				
+				<!-- Badge Earn Description -->
+				<div class="Rectangle-4-copy-3" id="Badge-descp">
+					<p class="-more-right-answers-to-earn-a-badge-Get-it-quick-to-move-stra">3 more right answers to earn a badge. Get it quick to move straight to rank 2!</p>
+				</div>
+
+			</div>
+			
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+
+body {
+    background-color: #f2716f;
+}
+h1{
+	margin-left:40%;
+	color:white;
+	font-family:Montserrat;
+	font-size:400%;
+}
+#person1{
+	float:left;
+	width:100%;
+	margin-left:15%;
+5
+}
+
+#RoundRect{
+
+	height:70%;
+	width:60%;
+	background-color: white;
+	margin-left:20%;
+	margin-top:6%;
+	border-radius:5%;
+
+}
+#Image2{
+	height:17%;
+	width:10%;
+	border-radius:50%;
+	margin-top:2%;
+	margin-left:4%;
+	float:left;
+	
+}
+
+#Image{
+	height:17%;
+	width:10%;
+	border-radius:50%;
+	margin-top:2%;
+	margin-left:4%;
+	float:left;
+	transform: rotate(90deg);
+}
+
+#name{
+	padding-top:3%;
+	padding-left:3%;
+	margin-left:15%;
+	font-size:120%;
+	
+}
+
+#email{
+	padding-top:1%;
+	
+	margin-left:18%;
+	font-size:100%;
+}
+#phone{
+	padding:0%;
+	margin-left:18%;
+	font-size:100%;	
+}

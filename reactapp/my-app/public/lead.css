@@ -1,0 +1,254 @@
+	
+.Rectangle-1-copy-4 {
+   width: 66.62vw;
+  height:100vh;
+  background-color: #f2716f;
+  position: absolute;
+}
+.Leaderboard {
+  width: 7.7vw;
+  height: 1.73vh;
+  font-family: Montserrat;
+  font-size: 2.24vh;
+  line-height: 1.56;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+ top:3.5vh;
+  left:30.5vw;
+}
+.Shape-18 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+.Shape-22 {
+  width: 0.97vw;
+  height: 1.73vh;
+  object-fit: contain;
+  background-color: transparent;
+  position: absolute;
+  left: 64.88vw;
+  top: 3.58vh;
+}
+.TOP-5 {
+  width: 2.84vw;
+  height: 1.35vh;
+  font-family: Montserrat;
+  font-size: 1.73vh;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+top:8.4vh;
+ left:2.29vw;
+}
+.layer {
+  width: 0.35vw;
+  height: 1.73vh;
+  font-family: Montserrat;
+  font-size: 2.22vh;
+  font-weight: 500;
+  line-height: 1.56;
+  text-align: left;
+  color: #ffffff;
+top: 13.6vh;
+ left: 3.95vw;
+  position: absolute;
+}
+.layer-1 {
+  width: 0.90vw;
+  height: 1.23vh;
+  font-family: Montserrat;
+  font-size: 1.73vh;
+  text-align: left;
+  color: #333333;
+ top:2.22vh;
+  left:20.61vw;
+  position: absolute;
+}
+.layer-2 {
+  width: 0.90vw;
+  height: 1.23vh;
+  font-family: Montserrat;
+  font-size: 1.73vh;
+  text-align: left;
+  color: #333333;
+ top:18.54vh;
+
+  position: absolute;
+}
+.Lisa-Horshington {
+  height: 1.85vh;
+  font-family: Montserrat;
+  font-size: 1.72vh;
+  font-weight: bold;
+  text-align: left;
+  color: #333333;
+  width: 10vw;
+}
+.Rounded-Rectangle-2 {
+  width: 62.63vw;
+  height: 7.16vh;
+  object-fit: contain;
+background-color: #ffffff;
+   top:16.32vh;
+   left:3.8vw;
+   border-radius: 10px 8px 8px 10px;
+   position: absolute;
+  
+}
+.Ellipse-1-copy-2 {
+  width: 4.09vw;
+  height: 7.29vh;
+  object-fit: contain;
+  background-color:transparent;
+  
+}
+
+
+.Rectangle-1-copy {
+  width: 33.31vw;
+  height: 100vh;
+  background-color: transparent;
+   box-shadow: 0px 6px 24px 0 rgba(0, 0, 0, 0.14);
+ 
+}
+
+.Rounded-Rectangle-1 {
+  width: 23.59vw;
+  height: 27.56vh;
+  background-color: #ffffff;
+  box-shadow: 2.35vh 0.41vw 1.66vh 0 rgba(0, 0, 0, 0.08);
+  border: solid 1px rgba(161, 115, 169, 0.45);
+  top:39.43vh;
+  left:11.5vw;
+  border-radius: 2.47vh 0 0 2.47vh;
+   position: absolute;
+
+}
+
+
+.Ellipse-1-copy {
+  height: 5.31vh;
+  width: 2.98vw;
+  left:9.65vw;
+  top:2.35vh;
+  position: absolute;
+  background-color: green;
+  background-color: var(--faded-orange);
+}
+
+.Welcome-Andrea {
+  width: 10.96vw;
+  height: 1.73vh;
+  font-family: Montserrat;
+  font-size: 2.22vh;
+  line-height: 1.56;
+  text-align: left;
+  color: #333333;
+  
+
+}
+.Shape-10 {
+  width: 1.24vw;
+  height: 2.1vh;
+  object-fit: contain;
+  background-color: transparent;
+   position: absolute;
+  left:19.01vw;
+  top:2.22vh;
+}
+.Shape-10-copy {
+  width: 1.25vw;
+  height: 2.10vh;
+  background-color: transparent;
+  left:59.47vw;
+  top:18.54vh;
+  position: absolute;
+}
+.-Badges-earned {
+  width: 7.98vw;
+  height: 1.73vh;
+  font-family: Montserrat;
+  font-size: 1.73vh;
+  line-height: 2;
+  text-align: left;
+  color: #333333;
+  top: 14.58vh;
+  left: 3.88vw;
+  position: absolute;
+}
+.Good-start-43-questions-answered {
+  width: 16.72vw;
+  height: 1.73vh;
+  font-family: Montserrat;
+  font-size: 1.73vh;
+  line-height: 2;
+  text-align: left;
+  color: #333333;
+   top: 19.03vh;
+  left: 3.88vw;
+  position: absolute;
+}
+.Participated-in-8-discussions {
+  width: 13.6vw;
+  height:1.73vh;
+  font-family: Montserrat;
+  font-size: 1.73vh;
+  line-height: 2;
+  text-align: left;
+  color: #333333;
+     top: 23.36vh;
+  left: 3.88vw;
+  position: absolute;
+}
+.Shape-21 {
+  width: 1.59vw;
+  height: 2.47vh;
+  object-fit: contain;
+  background-color:transparent;
+  top: 23.36vh;
+  left: 1.73vw;
+  position: absolute;
+}
+.Shape-20 {
+  width: 1.17vw;
+  height: 2.59vh;
+  object-fit: contain;
+  background-color: transparent;
+ top: 19.03vh;
+  left: 1.87vw;
+  position: absolute;
+}
+
+.Shape-19 {
+  width: 1.66vw;
+  height: 2.71vh;
+  object-fit: contain;
+  background-color: transparent;
+  top: 14.58vh;
+  left: 1.73vw;
+  position: absolute;
+}
+.Shape-19-copy {
+  width: 1.66vw;
+  height: 2.71vh;
+  background-color: transparent;
+    top:18.54vh;
+  left: 52.32vw;
+  position: absolute;
+
+}
+.Group-2-copy {
+  width: 100vw;
+  height: 100vh;
+}
+.Rectangle-5 {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: #ffffff;
+}

@@ -1,0 +1,157 @@
+<!--  <!DOCTYPE html>   -->
+<html lang="en">
+<head>
+	<title>Leaderboard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="/home/shashank/my-app/src/Lead.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="lead.css">
+
+</head>
+<body>
+<div class = "lead_page">
+<div class="container-fluid">
+	<div class="row ">
+<div class="Group-2-copy" >
+
+<div class="col-md-4">
+        <div class="Rectangle-1-copy">
+<div class="Rounded-Rectangle-1">
+            <div class="row">
+                  <img src="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum.png"
+     srcset="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@2x.png 2x,
+             img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@3x.png 3x"
+      style="left:9.65vw;top:2.35vh;height: 5.31vh;width: 2.98vw;position: absolute;" class="img-circle">
+                <img src="img/shape-10.png"
+     srcset="img/shape-10@2x.png 2x,
+             img/shape-10@3x.png 3x"
+     class="Shape-10">
+     <div class="layer-1">12</div></div>
+
+                <div >
+                <p class="Welcome-Andrea" style="left:6.31vw;top:9.17vh;position: absolute;">Welcome Andrea!</p>
+                </div>
+                <div class="row">
+                <img src="img/shape-19.png"
+     srcset="img/shape-19@2x.png 2x,
+             img/shape-19@3x.png 3x"
+     class="Shape-19">
+                <div ><p class="-Badges-earned">2 Badges earned</p></div></div>
+                <div class="row">
+                <img src="img/shape-20.png"
+     srcset="img/shape-20@2x.png 2x,
+             img/shape-20@3x.png 3x"
+     class="Shape-20">
+                <div ><p class="Good-start-43-questions-answered">Good start! 43 questions answered.</p></div></div>
+                <div class="row">
+                <img src="img/shape-21.png"
+     srcset="img/shape-21@2x.png 2x,
+             img/shape-21@3x.png 3x"
+     class="Shape-21">
+                <div ><p class="Participated-in-8-discussions">Participated in 8 discussions</p></div>
+                </div>
+            </div>
+        </div>
+            
+            </div>
+            <div id="quiz" class="col-md-8" >
+            <div class="Rectangle-1-copy-4" >
+                <div ><p class="Leaderboard" >Leaderboard</p></div>
+                <a href=""><img src="img/shape-22.png"
+     srcset="img/shape-22@2x.png 2x,
+             img/shape-22@3x.png 3x"
+     class="Shape-22"></a>
+                <div ><p class="TOP-5">TOP-5</p></div>
+                <div class="row" style="position:absolute;">
+                <div ><p class="layer">1</p></div>
+                <img src="img/rounded-rectangle-2.png"
+     srcset="img/rounded-rectangle-2@2x.png 2x,
+             img/rounded-rectangle-2@3x.png 3x"
+     class="Rounded-Rectangle-2">
+    <img src="img/shape-10.png"
+     srcset="img/shape-10@2x.png 2x,
+             img/shape-10@3x.png 3x"
+     class="Shape-10-copy">
+     <img src="img/shape-19.png"
+     srcset="img/shape-19@2x.png 2x,
+             img/shape-19@3x.png 3x"
+     class="Shape-19-copy">
+     <div class="layer-2" style="  left:54.4vw;">4</div>
+     <div class="layer-2" style="  left:61.06vw;">12</div>
+      
+     <img src="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum.png"
+     srcset="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@2x.png 2x,
+             img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@3x.png 3x"
+     class="ce6ee6705c0a35988f3d86700--perfect-hair-color-emmy-rossum img-circle" style="  top:16.32vh;
+     left:2.20vw;position: absolute;width: 4.02vw;height: 7.17vh;">
+
+     
+<div class="Lisa-Horshington" style="left:7.84vw;top:18.91vh;position: absolute;"><p>Lisa Horshington</p></div></div>
+<div class="row" style="top:11.12vh;position:absolute;">
+<div class="layer">2</div>
+                <img src="img/rounded-rectangle-2.png"
+     srcset="img/rounded-rectangle-2@2x.png 2x,
+             img/rounded-rectangle-2@3x.png 3x"
+     class="Rounded-Rectangle-2">
+    <img src="img/shape-10.png"
+     srcset="img/shape-10@2x.png 2x,
+             img/shape-10@3x.png 3x"
+     class="Shape-10-copy">
+     <img src="img/shape-19.png"
+     srcset="img/shape-19@2x.png 2x,
+             img/shape-19@3x.png 3x"
+     class="Shape-19-copy">
+     <div class="layer-2" style="  left:54.4vw;">4</div>
+     <div class="layer-2" style="  left:61.06vw;">12</div>
+    
+   <img src="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum.png"
+     srcset="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@2x.png 2x,
+             img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@3x.png 3x"
+     class="ce6ee6705c0a35988f3d86700--perfect-hair-color-emmy-rossum img-circle" style="  top:16.32vh;
+   left:2.20vw;position: absolute;width: 4.02vw;height: 7.17vh;">
+     
+<div ><p class="Lisa-Horshington" style="left:7.84vw;top:18.91vh;position: absolute;">Kim Cormell</p></div>
+
+            </div>
+            <div class="row" style="top:22.24vh;position:relative;">
+<div class="layer">3</div>
+                <img src="img/rounded-rectangle-2.png"
+     srcset="img/rounded-rectangle-2@2x.png 2x,
+             img/rounded-rectangle-2@3x.png 3x"
+     class="Rounded-Rectangle-2">
+    <img src="img/shape-10.png"
+     srcset="img/shape-10@2x.png 2x,
+             img/shape-10@3x.png 3x"
+     class="Shape-10-copy">
+     <img src="img/shape-19.png"
+     srcset="img/shape-19@2x.png 2x,
+             img/shape-19@3x.png 3x"
+     class="Shape-19-copy">
+     <div class="layer-2" style="  left:54.4vw;">4</div>
+     <div class="layer-2" style="  left:61.06vw;">12</div>
+    
+   <img src="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum.png"
+     srcset="img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@2x.png 2x,
+             img/5311630-ce-6-ee-6705-c-0-a-35988-f-3-d-86700-perfect-hair-color-emmy-rossum@3x.png 3x"
+     class="ce6ee6705c0a35988f3d86700--perfect-hair-color-emmy-rossum img-circle" style="  top:16.32vh;
+   left:2.20vw;position: absolute;width: 4.02vw;height: 7.17vh;">
+     
+<div ><p class="Lisa-Horshington" style="left:7.84vw;top:18.91vh;position: absolute;">Christina Joy</p></div>
+
+            </div>
+            </div>
+</div>
+
+
+			</div>
+		</div>
+
+</div>
+	
+</div>
+</body>
+</html>

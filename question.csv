@@ -1,0 +1,2 @@
+ques_id,statement,op1,op2,op3,op4,ans,correct,incorrect,TCI,time,clusters,subject_id
+10,Which of the following is odd number ?,10,12,13,14,3,5,10,7.0,4.0,1,1
